@@ -39,4 +39,15 @@ range里面存的都是实dom, 做虚实dom比对的时候，用到
 
 react中update 和 mount 是核心
 ```
+void 0 是一个安全值，void 0 就是 undefined
+但是undefined 是一个变量的形式，有可能被别人篡改
+
+for ... in 遍历对象
+for ... of 遍历数组
+
+react 的组件 里面的类型 和元素 完全相同的时候，才被认为是相同的
+react 同层比对
+react 有全局的事件代理
+
+虚拟树 三个主要函数 isSameNode   isSameTree   replace
 
